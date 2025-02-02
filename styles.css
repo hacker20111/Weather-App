@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white-smoke;
+  color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  min-height: 352px;
+}
+
+h1 {
+  padding-left: 32px;
+}
+
+#input1 {
+  padding-right: 40%;
+  padding-left: 6px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border: 1px solid gray;
+  outline-color: black;
+  border-radius: 5px;
+}
+
+#input2 {
+  margin-top: 16px;
+  padding-right: 1.28rem;
+  padding-left: 6px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border: 1px solid gray;
+  outline-color: black;
+  border-radius: 5px;
+}
+
+#search-btn {
+  color: white;
+  background-color: #3498db;
+  padding-top: 0.6rem;
+  padding-bottom: 0.42rem;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+
+#search-btn:hover {
+  background-color: #2980b9;
+}
+
+#div1 {
+  background-color: white;
+  border-radius: 0.625rem;
+  box-shadow: 0 1rem 0.625rem rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.error-message{
+  font-size: 15px;
+  color: red;
+}
+
+.city-name{
+  color: black;
+  font-size: 30px;
+  margin-left: 5rem;
+  margin-top: 30px;
+}
+
+.temperature{
+   color: black;
+   margin-left: 6.50rem;
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+img{
+  margin-left: 5.90rem;
+}
